@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <% if (locals.title ) { %>
+    <meta property="og:title" content="<%= title %>" />
+    <% } %> <% if (locals.description) { %>
+    <meta property="og:description" content="<%= description %>" />
+    <% } %> <% if (locals.image) { %>
+    <meta property="og:image" content="<%= image %>" />
+    <% } %>
+    <meta property="og:site_name" content="캐시닥 커뮤니티" />
+    <title>캐시닥 커뮤니티</title>
+    <script src="/ismobile.js"></script>
+    <script src="/bridge.js"></script>
+  </head>
+  <body></body>
+</html>

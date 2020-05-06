@@ -1,0 +1,23 @@
+{
+  "name": "community-share",
+  "version": "1.0.0",
+  "description": "커뮤니티 공유를 처리하는 브릿지 웹 서버",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlgkrbek123/community-share.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlgkrbek123/community-share/issues"
+  },
+  "homepage": "https://github.com/dlgkrbek123/community-share#readme",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1"
+  }
+}
